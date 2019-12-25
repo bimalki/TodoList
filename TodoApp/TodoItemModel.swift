@@ -21,6 +21,15 @@ struct TodoItemModel {
     var isComplete: Bool
     
     init(name: String, details: String, completionDate:  Date) {
-        <#statements#>
+        self.name = name
+        
+        self.details = name
+        
+        self.completionDate = completionDate
+        
+        self.isComplete = false
+        
+        self.startDate =  Date()
+        
     }
 }
